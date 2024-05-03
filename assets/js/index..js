@@ -1,4 +1,4 @@
-import Tipos from "./clases/tipos.js";
+import Tipos from "./clases/Tipos.js";
 import data from "./data.js";
 
 let animales = [];
