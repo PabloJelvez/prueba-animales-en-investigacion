@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background: linear-gradient(to right, rgb(0, 0, 0), rgb(239, 192, 5));
+  font-family: "Ubuntu Sans Mono", monospace;
+}
+header {
+  background-image: url("../imgs/fondo.jpg");
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.logo{
+  width: 70px;
+  height: 70px;
+  padding: 5px;
+  border-radius: 20px;
+}
+main{
+  padding: 80px 0;
+}
+.row{
+  display: flex;
+  justify-content: space-evenly;
+}
+/* Formulario */
+
+#preview {
+  height: 200px;
+  background-image: url(../imgs/lion.svg);
+  background-position: top;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+
+/* Tabla de Participantes */
+
+#Animales {
+  height: 100%;
+  background: #f0f0f0;
+}
+
+#Animales div div {
+  transition: all 200ms;
+}
+
+#Animales div >div:hover {
+  box-shadow: 0px 1px 5px 1px;
+}
+
+.participante {
+  max-width: 30%;
+}
+
+/* Modal */
+
+.modal-dialog{
+    max-width: 85% !important;
+}
+
+/* Footer */
+
+footer{
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
